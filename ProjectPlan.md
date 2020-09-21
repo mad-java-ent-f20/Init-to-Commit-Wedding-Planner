@@ -3,14 +3,14 @@
 ### Week 3
 - [x] Create project repository on GitHub
 - [x] Create project structure in intellij and push
-- [ ] Add link to list of indie projects in student repo.
-- [ ] Complete Problem Statement
+- [x] Add link to list of indie projects in student repo.
+- [x] Complete Problem Statement
 - [ ] Determine possible Web Services or APIs to use
-- [ ] List technologies, versions and how they will be used
-- [ ] Weekly journal entry
-- [ ] Write project plan
-- [ ] Document application flow in text and pictures 
-- [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
+- [x] List technologies, versions and how they will be used
+- [x] Weekly journal entry
+- [x] Write project plan
+- [x] Document application flow in text and pictures
+- [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub.
 
 ### Week 4
 - [ ] Complete database design
@@ -41,12 +41,8 @@
 - [ ] Create db on AWS
 - [ ] Deploy to AWS for first time
 - [ ] Weekly journal entry
-- [ ] Create trail table
-- [ ] Add the trail entity (test, dev and prod dbs)
-- [ ] Realize that these daos are repetitive. Refactor into a generic dao!
+- [ ] Create table
 - [ ] Add update and delete functionality in jsp for user and role
-- [ ] Build the trail search jsp
-- [ ] Build the trail add/update/delete jsp
 - [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
@@ -55,10 +51,6 @@
 - [ ] Weekly journal entry
 - [ ] Set up authentication locally
 - [ ] Set up authentication on AWS
-- [ ] Add the Trail Type and Grooming Tables, populate with data, (test, dev and prod dbs)
-- [ ] Create the Trail Type and Grooming entities
-- [ ] Update Trail and Trail report to use trail type and grooming
-- [ ] Update Trail and Trail report tests to be sure they work with the new relationships
 - [ ] Review and incorporate any feedback from Checkpoint 2.
 
 
@@ -66,12 +58,8 @@
 
 - [ ] Weekly journal entry
 - [ ] Integration with google maps api
-- [ ] Create trail report table (test, dev and prod dbs)
-- [ ] Add the trail report entity
-- [ ] Create the trail report dao
-- [ ] Create the trail report dao unit tests
-- [ ] Build the trail report search jsp
-- [ ] Build the trail report crud jsps
+- [ ] Create table (test, dev and prod dbs)
+
 - [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9

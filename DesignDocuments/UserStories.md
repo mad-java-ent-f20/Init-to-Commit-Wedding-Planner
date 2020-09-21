@@ -31,6 +31,10 @@ As a registered user, I want to be able to add guest's contact information to my
 
 
 
+**Additional Features
+
+### Add Wedding planner to hire
+### Add photographer to hire
 
 
 
