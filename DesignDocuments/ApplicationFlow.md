@@ -50,7 +50,13 @@ pages.  JDBCRealm used for authentication (users, users_roles, and roles table).
 1. Dao adds event to the database
 1. Servlet sends confirmation to event page that event has been added.
 
-
+### Add Guest
+1. User enters guest details
+1. Details are sent to Add guest servlet
+1. Servlet creates guest object
+1. Servlet sends object to dao
+1. Dao adds event to the database
+1. Servlet sends confirmation to guest page that guest has been added.
 
 
 

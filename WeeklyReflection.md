@@ -18,3 +18,15 @@ I'm struggling with the creative side to the project as I don't want to add too 
 
 ### Week 2
 
+ * Researched more on just ideas on what to add to project
+ * Created rough draft of user stories
+
+ Struggling getting all the project work done with also hw from other classes and work.
+
+ ### Week 3
+
+ * Added more to project and journal logs
+ * Creating wire frames of screen design (might need to re-think some pages....rough draft)
+
+ Thought about adding wedding registry to the app.  Might add later if time permits as it would be a great add on.
+
