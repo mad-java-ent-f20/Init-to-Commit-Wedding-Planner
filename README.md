@@ -45,7 +45,7 @@ details organized and allow the user to add, delete, and create according to the
 * [Screen Design](DesignDocuments/ScreenDesign(2).png)
 * [Application Flow](DesignDocuments/ApplicationFlow.md)
 * [Application Flow](DesignDocuments/ApplicationFlow.png)
-// [Database Design](DesignDocuments/databaseDiagram.png)
+
 
 ### [Project Plan](ProjectPlan.md)
 
