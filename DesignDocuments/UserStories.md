@@ -3,7 +3,7 @@
 
 ### Sign up
 
-As a new user I want to create an account so that I can add details for a successful wedding.
+As a new user I want to create an account so that I can organize details for a successful wedding.
 
 ### Sign In
 

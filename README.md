@@ -16,7 +16,7 @@ details organized and allow the user to add, delete, and create according to the
 * Database
   * MySQL
   * Store users and roles
-  * Store all data for the wedding (ie: list, food, location details)
+  * Store all data for the wedding (ie: notes, photos, guest list)
 * ORM Framework
   * Hibernate 5
 * Dependency Management
