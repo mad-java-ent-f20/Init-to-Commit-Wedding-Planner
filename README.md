@@ -40,10 +40,12 @@ details organized and allow the user to add, delete, and create according to the
 
 ### Design
 
-* [User Stories](DesignDocuments/userStories.md)
-* [Screen Design](DesignDocuments/Screens.md)
-* [Application Flow](DesignDocuments/applicationFlow.md)
-* [Database Design](DesignDocuments/databaseDiagram.png)
+* [User Stories](DesignDocuments/UserStories.md)
+* [Screen Design](DesignDocuments/ScreenDesign(1).png)
+* [Screen Design](DesignDocuments/ScreenDesign(2).png)
+* [Application Flow](DesignDocuments/ApplicationFlow.md)
+* [Application Flow](DesignDocuments/ApplicationFlow.png)
+// [Database Design](DesignDocuments/databaseDiagram.png)
 
 ### [Project Plan](ProjectPlan.md)
 
