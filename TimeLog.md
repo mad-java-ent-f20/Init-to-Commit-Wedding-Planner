@@ -6,4 +6,6 @@
 | 9.16.20| Worked on week 2 exercises and plan out indie project with notes | 15  | missed class due to work |
 | 9.20.20| Finished set up project repository, write problem statement for indie project, worked on checkpoint one | 20  | |
 | 9.21.20| Worked on screen mock-up wire frames | 5  | |
+| 9.23.20| Worked week 3 and week 4 activities | 10  | Need to pick out professional dev topic|
+
 

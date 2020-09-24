@@ -30,3 +30,7 @@ I'm struggling with the creative side to the project as I don't want to add too 
 
  Thought about adding wedding registry to the app.  Might add later if time permits as it would be a great add on.
 
+### Week 4
+
+* Researched more on design for indie project
+* Need to pick a professional development topic!!!
