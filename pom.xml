@@ -1,11 +1,11 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>edu.matc.entjava.yourindieproject</groupId>
-  <artifactId>Init to Commit Wedding Planner</artifactId>
+  <groupId>edu.matc</groupId>
+  <artifactId>Indie Project</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Init to Commit Wedding Planner Maven Webapp</name>
+  <name>Init-to-Commit</name>
   <url>http://maven.apache.org</url>
   <properties>
     <maven.compiler.release>11</maven.compiler.release>
@@ -50,7 +50,7 @@ This XML file does not appear to have any style information associated with it. 
       <artifactId>javaee-web-api</artifactId>
       <version>${javax.version}</version>
     </dependency>
-    <!--  https://mvnrepository.com/artifact/mysql/mysql-connector-java  -->
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -61,7 +61,7 @@ This XML file does not appear to have any style information associated with it. 
       <artifactId>jstl</artifactId>
       <version>${jstl-version}</version>
     </dependency>
-    <!--  next 2 dependencies are for log4j  -->
+    <!-- next 2 dependencies are for log4j -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
@@ -72,9 +72,22 @@ This XML file does not appear to have any style information associated with it. 
       <artifactId>log4j-core</artifactId>
       <version>${log4j-version}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.4.4.Final</version>
+    </dependency>
+    <!-- c3p0 - used to handle connection pooling with hibernate -->
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0 -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-c3p0</artifactId>
+      <version>5.4.4.Final</version>
+    </dependency>
   </dependencies>
   <build>
-    <finalName>Init to Commit Wedding Planner</finalName>
+    <finalName>>Init-to-Commit</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
