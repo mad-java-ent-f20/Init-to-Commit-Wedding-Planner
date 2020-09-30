@@ -1,72 +1,60 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.User;
-import junit.framework.TestCase;
+import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import junit.framework.TestCase;
-
 import java.time.LocalDate;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import java.util.List;
 
 /**
  * The type User dao test.
  */
-public class UserDAOTest {
+class UserDaoTest {
 
-
-    //instance variable for UserDAO
-    UserDAO dao;
+    UserDao dao;
 
     /**
-     * Creating the DAO.
+     * Creating the dao.
      */
     @BeforeEach
-    public void setUp()  {
-        dao = new UserDAO();
+    void setUp() {
+        dao = new UserDao();
+
+        Database database = Database.getInstance();
+        database.runSQL("cleandb.sql");
+
     }
 
     /**
-     * Verifies get all users successfully.
+     * Verifies gets all users successfully.
      */
     @Test
-    public void testGetAllUsers() {
+    void getAllUsersSuccess() {
         List<User> users = dao.getAllUsers();
         assertEquals(6, users.size());
     }
 
     /**
-     * Verifies search last name successfully.
+     * Verifies gets users by last name successfully.
      */
     @Test
-    public void testSearchLastName() {
-        List<User> users = dao.searchLastName("c");
+    void getUsersByLastNameSuccess() {
+        List<User> users = dao.getUsersByLastName("c");
         assertEquals(3, users.size());
     }
 
     /**
-     * Verifies a user is returned correctly based on id search.
-     */
-    @Test
-    public void getByIdSuccess() {
-        User retrievedUser = dao.getById(3);
-        assertEquals("Barney", retrievedUser.getFirstName());
-    }
-
-
-    /**
-     * Verify successful retrieval of a user
+     * Verifies a user is returned correctly based on id search
      */
     @Test
     void getByIdSuccess() {
         User retrievedUser = dao.getById(3);
+        assertNotNull(retrievedUser);
         assertEquals("Barney", retrievedUser.getFirstName());
-        assertEquals("Curry", retrievedUser.getLastName());
-        assertEquals("bcurry", retrievedUser.getUserName());
-        //TODO compare remaining values
     }
 
     /**
@@ -75,7 +63,7 @@ public class UserDAOTest {
     @Test
     void insertSuccess() {
 
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1968-01-01"));
+        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = dao.getById(id);
@@ -92,5 +80,37 @@ public class UserDAOTest {
     void deleteSuccess() {
         dao.delete(dao.getById(3));
         assertNull(dao.getById(3));
+    }
+
+    /**
+     * Verify successful update of user
+     */
+    @Test
+    void updateSuccess() {
+        String newLastName = "Davis";
+        User userToUpdate = dao.getById(3);
+        userToUpdate.setLastName(newLastName);
+        dao.saveOrUpdate(userToUpdate);
+        User retrievedUser = dao.getById(3);
+        assertEquals(newLastName, retrievedUser.getLastName());
+    }
+
+    /**
+     * Verify successful get by property (equal match)
+     */
+    @Test
+    void getByPropertyEqualSuccess() {
+        List<User> users = dao.getByPropertyLike("lastName", "Curry");
+        assertEquals(1, users.size());
+        assertEquals(3, users.get(0).getId());
+    }
+
+    /**
+     * Verify successful get by property (like match)
+     */
+    @Test
+    void getByPropertyLikeSuccess() {
+        List<User> users = dao.getByPropertyLike("lastName", "c");
+        assertEquals(3, users.size());
     }
 }

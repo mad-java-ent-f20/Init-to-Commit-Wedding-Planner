@@ -13,7 +13,7 @@ import org.hibernate.annotations.GenericGenerator;
 /**
  * A class to represent a user.
  *
- * @author p
+ * @author
  */
 @Entity(name = "User")
 @Table(name = "user")
@@ -32,8 +32,8 @@ public class User {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "date_of_birth")
-    private LocalDate dob;
+    @Column(name = "wedding_date")
+    private LocalDate weddingDate;
 
 
 
@@ -50,15 +50,15 @@ public class User {
      * @param firstName the first name
      * @param lastName  the last name
      * @param userName  the user name
-     * @param id        the id
+     * @param weddingDate        the id
      *
      */
-    public User(String firstName, String lastName, String userName, int id, int dob) {
+    public User(String firstName, String lastName, String userName, LocalDate weddingDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
-        this.id = id;
-        //  this.dob = dob;
+        //this.id = id;
+        this.weddingDate = weddingDate;
     }
 
 
@@ -137,10 +137,10 @@ public class User {
     /**
      * Sets dob.
      *
-     * @param dob the dob
+     * @param weddingDate the dob
      */
-    public void setDob(LocalDate dob) {
-        this.dob = dob;
+    public void setDob(LocalDate weddingDate) {
+        this.weddingDate = weddingDate;
     }
 
     /**
@@ -148,20 +148,20 @@ public class User {
      *
      * @return the dob
      */
-    public LocalDate getDob() {
-        return dob;
+    public LocalDate getWeddingDate() {
+        return weddingDate;
     }
 
     /**
      * Gets age of user.
      *
      * @return the age
-     */
+
     public int getAge() {
         return(int) ChronoUnit.YEARS.between(dob,LocalDate.now());
 
     }
-
+*/
     @Override
     public String toString() {
         return "User{" +
@@ -169,8 +169,7 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
                 ", id=" + id +
-                ", dob=" + dob +
-                ", age=" + getAge() +
+                ", weddingDate=" + weddingDate +
                 '}';
     }
 }

@@ -1,0 +1,3 @@
+[DEBUG] 2020-09-30 16:08:03.772 [main] UserDao - The list of users [User{firstName='Joe', lastName='Coyne', userName='jcoyne', id=1, weddingDate=1964-04-01}, User{firstName='Fred', lastName='Hensen', userName='fhensen', id=2, weddingDate=1988-05-08}, User{firstName='Karen', lastName='Mack', userName='kmack', id=4, weddingDate=1986-07-08}, User{firstName='Dianne', lastName='Klein', userName='dklein', id=5, weddingDate=1991-09-22}, User{firstName='Dawn', lastName='Tillman', userName='dtillman', id=6, weddingDate=1979-08-30}]
+[DEBUG] 2020-09-30 16:08:03.830 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2020-09-30 16:08:03.958 [main] UserDao - Searching for user with lastName = c
