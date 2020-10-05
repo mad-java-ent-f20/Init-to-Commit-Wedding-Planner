@@ -13,7 +13,7 @@ import org.hibernate.annotations.GenericGenerator;
 /**
  * A class to represent a user.
  *
- * @author
+ * @author amoua
  */
 @Entity(name = "User")
 @Table(name = "user")
@@ -35,7 +35,7 @@ public class User {
     @Column(name = "wedding_date")
     private LocalDate weddingDate;
 
-
+    private Event wedEvent = new Event();
 
 
     /**
@@ -47,11 +47,10 @@ public class User {
     /**
      * Instantiates a new User.
      *
-     * @param firstName the first name
-     * @param lastName  the last name
-     * @param userName  the user name
-     * @param weddingDate        the id
-     *
+     * @param firstName   the first name
+     * @param lastName    the last name
+     * @param userName    the user name
+     * @param weddingDate the id
      */
     public User(String firstName, String lastName, String userName, LocalDate weddingDate) {
         this.firstName = firstName;
@@ -135,33 +134,41 @@ public class User {
     }
 
     /**
-     * Sets dob.
+     * Sets wedding date.
      *
-     * @param weddingDate the dob
+     * @param weddingDate the wedding date
      */
     public void setDob(LocalDate weddingDate) {
         this.weddingDate = weddingDate;
     }
 
     /**
-     * Gets dob.
+     * Gets wedding date.
      *
-     * @return the dob
+     * @return the wedding date
      */
     public LocalDate getWeddingDate() {
         return weddingDate;
     }
 
     /**
-     * Gets age of user.
+     * Gets wed event.
      *
-     * @return the age
-
-    public int getAge() {
-        return(int) ChronoUnit.YEARS.between(dob,LocalDate.now());
-
+     * @return the wed event
+     */
+    public Event getWedEvent() {
+        return wedEvent;
     }
-*/
+
+    /**
+     * Sets wed event.
+     *
+     * @param wedEvent the wed event
+     */
+    public void setWedEvent(Event wedEvent) {
+        this.wedEvent = wedEvent;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -172,4 +179,5 @@ public class User {
                 ", weddingDate=" + weddingDate +
                 '}';
     }
+
 }

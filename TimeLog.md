@@ -10,4 +10,5 @@
 | 9.28.20| Worked on week 4 demo examples | 5  | |
 | 9.29.20| Continued with week 4 exercises, researched for professional dev topic | 10  | |
 | 9.30.20| Continued working on indie project, start week 5 videos and excercise | 10  | |
+| 10.4.20| Continued working on indie project, start week 5 videos and excercise | 11  | |
 
