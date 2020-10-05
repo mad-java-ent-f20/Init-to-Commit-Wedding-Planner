@@ -35,6 +35,7 @@ public class User {
     @Column(name = "wedding_date")
     private LocalDate weddingDate;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Event wedEvent = new Event();
 
 

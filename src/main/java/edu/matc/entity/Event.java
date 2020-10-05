@@ -1,7 +1,8 @@
 package edu.matc.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 
 /**
  * The type Event.
@@ -10,10 +11,18 @@ import javax.persistence.Table;
 @Entity(name = "Order")
 @Table(name = "event")
 public class Event {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native", strategy = "native")
     private int id;
+
+    @ManyToOne
     private User user;
+
+    @Column(name = "wedding_date")
     private int wedding_date;
+
+    @Column(name = "budget")
     private int budget;
 
     /**
