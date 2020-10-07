@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.Event;
 import edu.matc.entity.User;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
@@ -57,6 +58,25 @@ class UserDaoTest {
     void insertSuccess() {
 
         User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
+        int id = dao.insert(newUser);
+        assertNotEquals(0,id);
+        User insertedUser = dao.getById(id);
+        assertEquals("Fred", insertedUser.getFirstName());
+    }
+
+    /**
+     * Verify successful insert of an event
+     */
+    @Test
+    void insertWithEventSuccess() {
+
+        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
+
+        String location = "Madison";
+        Event event = new Event(location, newUser);
+
+        newUser.addEvent(event);
+
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = dao.getById(id);

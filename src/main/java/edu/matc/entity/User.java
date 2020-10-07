@@ -36,7 +36,7 @@ public class User {
     private LocalDate weddingDate;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Event wedEvent = new Event();
+    private Event event = new Event();
 
 
     /**
@@ -139,7 +139,7 @@ public class User {
      *
      * @param weddingDate the wedding date
      */
-    public void setDob(LocalDate weddingDate) {
+    public void setWeddingDate(LocalDate weddingDate) {
         this.weddingDate = weddingDate;
     }
 
@@ -155,20 +155,42 @@ public class User {
     /**
      * Gets wed event.
      *
-     * @return the wed event
+     * @return event the wed event
      */
-    public Event getWedEvent() {
-        return wedEvent;
+    public Event getEvent() {
+        return event;
     }
 
     /**
      * Sets wed event.
      *
-     * @param wedEvent the wed event
+     * @param event the wed event
      */
-    public void setWedEvent(Event wedEvent) {
-        this.wedEvent = wedEvent;
+    public void setEvent(Event event) {
+        this.event = event;
     }
+
+    /**
+     * Add event.
+     *
+     * @param event the event
+     */
+    public void addEvent(Event event) {
+        event.addEvent(event);
+        event.setUser(null);
+    }
+
+
+    /**
+     * Remove event.
+     *
+     * @param event the event
+     */
+    public void removeEvent(Event event) {
+        event.removeEvent(event);
+        event.setUser(null);
+    }
+
 
     @Override
     public String toString() {
@@ -180,5 +202,6 @@ public class User {
                 ", weddingDate=" + weddingDate +
                 '}';
     }
+
 
 }

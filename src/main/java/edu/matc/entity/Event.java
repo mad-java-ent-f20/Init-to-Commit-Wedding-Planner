@@ -25,8 +25,11 @@ public class Event {
     @Column(name = "budget")
     private int budget;
 
+    @Column(name = "location")
+    private String location;
+
     /**
-     * Instantiates a new Event.
+     * No arg constructor.
      */
     public Event() {
 
@@ -37,9 +40,10 @@ public class Event {
      *
      * @param user the user
      */
-    public Event(User user) {
+    public Event(String location, User user) {
         this.user = user;
     }
+
 
     /**
      * Gets id.
@@ -95,6 +99,46 @@ public class Event {
         this.budget = budget;
     }
 
+
+    /**
+     * Gets location.
+     *
+     * @return the location
+     */
+    public String getLocation() {
+        return location;
+    }
+
+    /**
+     * Sets location.
+     *
+     * @param location the location
+     */
+    public void setEvent(String location) {
+        this.location = location;
+
+    }
+
+
+    /**
+     * Gets user.
+     *
+     * @return the user
+     */
+    public User getUser() {
+        return user;
+    }
+
+    /**
+     * Sets user.
+     *
+     * @param user the user
+     */
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+
     @Override
     public String toString() {
         return "Event{" +
@@ -102,6 +146,8 @@ public class Event {
                 ", user=" + user +
                 ", wedding_date=" + wedding_date +
                 ", budget=" + budget +
+                ", location='" + location + '\'' +
                 '}';
     }
+
 }
