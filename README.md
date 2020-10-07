@@ -1,4 +1,4 @@
-# Alisa Moua Individual Project
+#Init-to-Commit Wedding Planner
 
 This repository is for indie project.
 
