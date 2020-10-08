@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Init-to-Commit Wedding Planner Application
+=======
+#Init-to-Commit Wedding Planner
+>>>>>>> 5440da87182ee62da0e8607568f55c077e0655eb
 
 This repository is for indie project.
 
