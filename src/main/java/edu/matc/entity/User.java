@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
+import java.util.HashSet;
+import java.util.Set;
 
 
 /**
@@ -36,7 +38,7 @@ public class User {
     private LocalDate weddingDate;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Event event = new Event();
+    private Set<Event> events = new HashSet<>();
 
 
     /**
@@ -155,19 +157,19 @@ public class User {
     /**
      * Gets wed event.
      *
-     * @return event the wed event
+     * @return events the wed event
      */
-    public Event getEvent() {
-        return event;
+    public Set<Event> getEvents() {
+        return events;
     }
 
     /**
      * Sets wed event.
      *
-     * @param event the wed event
+     * @param events the wed event
      */
-    public void setEvent(Event event) {
-        this.event = event;
+    public void setEvents(Set<Event> events) {
+        this.events = events;
     }
 
     /**
@@ -176,7 +178,7 @@ public class User {
      * @param event the event
      */
     public void addEvent(Event event) {
-        event.addEvent(event);
+        events.add(event);
         event.setUser(null);
     }
 
@@ -187,7 +189,7 @@ public class User {
      * @param event the event
      */
     public void removeEvent(Event event) {
-        event.removeEvent(event);
+        events.remove(event);
         event.setUser(null);
     }
 

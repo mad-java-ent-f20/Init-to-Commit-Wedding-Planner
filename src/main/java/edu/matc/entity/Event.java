@@ -8,8 +8,8 @@ import javax.persistence.*;
  * The type Event.
  * @author amoua
  */
-@Entity(name = "Order")
-@Table(name = "event")
+@Entity(name = "Event")
+@Table(name = "events")
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -114,12 +114,10 @@ public class Event {
      *
      * @param location the location
      */
-    public void setEvent(String location) {
+    public void setLocation(String location) {
         this.location = location;
 
     }
-
-
     /**
      * Gets user.
      *

@@ -1,4 +1,4 @@
-# Alisa Moua Individual Project
+# Init-to-Commit Wedding Planner Application
 
 This repository is for indie project.
 
@@ -41,10 +41,10 @@ details organized and allow the user to add, delete, and create according to the
 ### Design
 
 * [User Stories](DesignDocuments/UserStories.md)
-* [Screen Design](DesignDocuments/ScreenDesign(1).png)
-* [Screen Design](DesignDocuments/ScreenDesign(2).png)
-* [Application Flow](DesignDocuments/ApplicationFlow.md)
-* [Application Flow](DesignDocuments/ApplicationFlow.png)
+* [Screen Design 1 out of 2](DesignDocuments/ScreenDesign(1).png)
+* [Screen Design 2 out of 2](DesignDocuments/ScreenDesign(2).png)
+* [Application Flow ](DesignDocuments/ApplicationFlow.md)
+* [Application Flow Image](DesignDocuments/ApplicationFlow.png)
 
 
 ### [Project Plan](ProjectPlan.md)
