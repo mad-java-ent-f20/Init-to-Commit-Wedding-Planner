@@ -11,4 +11,5 @@
 | 9.29.20| Continued with week 4 exercises, researched for professional dev topic | 10  | |
 | 9.30.20| Continued working on indie project, start week 5 videos and excercise | 10  | |
 | 10.4.20| Continued working on indie project, start week 5 videos and excercise | 11  | |
+| 10.7.20| Continued working on indie project, finished week 5 exercise within project | 12  | |
 

@@ -19,8 +19,8 @@ public class Event {
     @ManyToOne
     private User user;
 
-    @Column(name = "wedding_date")
-    private int wedding_date;
+   // @Column(name = "wedding_date")
+    //private int wedding_date;
 
     @Column(name = "budget")
     private int budget;
@@ -67,7 +67,7 @@ public class Event {
      * Gets wedding date.
      *
      * @return the wedding date
-     */
+
     public int getWedding_date() {
         return wedding_date;
     }
@@ -76,11 +76,11 @@ public class Event {
      * Sets wedding date.
      *
      * @param wedding_date the wedding date
-     */
+
     public void setWedding_date(int wedding_date) {
         this.wedding_date = wedding_date;
     }
-
+*/
     /**
      * Gets budget.
      *
@@ -142,7 +142,6 @@ public class Event {
         return "Event{" +
                 "id=" + id +
                 ", user=" + user +
-                ", wedding_date=" + wedding_date +
                 ", budget=" + budget +
                 ", location='" + location + '\'' +
                 '}';

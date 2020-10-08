@@ -57,7 +57,7 @@ class UserDaoTest {
     @Test
     void insertSuccess() {
 
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1168-01-01"));
+        User newUser = new User("Fred", "Flintstone", "fflintstone");
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = dao.getById(id);
@@ -70,7 +70,7 @@ class UserDaoTest {
     @Test
     void insertWithEventSuccess() {
 
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("2022-05-08"));
+        User newUser = new User("Fred", "Flintstone", "fflintstone");
 
         String location = "Madison";
         Event event = new Event(location, newUser);

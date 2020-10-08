@@ -34,8 +34,8 @@ public class User {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "wedding_date")
-    private LocalDate weddingDate;
+    //@Column(name = "wedding_date")
+    //private LocalDate weddingDate;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Event> events = new HashSet<>();
@@ -53,14 +53,13 @@ public class User {
      * @param firstName   the first name
      * @param lastName    the last name
      * @param userName    the user name
-     * @param weddingDate the id
      */
-    public User(String firstName, String lastName, String userName, LocalDate weddingDate) {
+    public User(String firstName, String lastName, String userName) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
         //this.id = id;
-        this.weddingDate = weddingDate;
+        //this.weddingDate = weddingDate;
     }
 
 
@@ -142,7 +141,7 @@ public class User {
      * Sets wedding date.
      *
      * @param weddingDate the wedding date
-     */
+
     public void setWeddingDate(LocalDate weddingDate) {
         this.weddingDate = weddingDate;
     }
@@ -151,11 +150,11 @@ public class User {
      * Gets wedding date.
      *
      * @return the wedding date
-     */
+
     public LocalDate getWeddingDate() {
         return weddingDate;
     }
-
+*/
     /**
      * Gets wed event.
      *
@@ -203,7 +202,6 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
                 ", id=" + id +
-                ", weddingDate=" + weddingDate +
                 '}';
     }
 

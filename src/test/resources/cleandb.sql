@@ -1,4 +1,4 @@
 delete from user;
 delete from events;
-INSERT INTO user VALUES (1,'Joe','Coyne','jcoyne','supersecret1','2021-04-15'),(2,'Fred','Hensen','fhensen','supersecret2','2022-05-08'),(3,'Barney','Curry','bcurry','supersecret3','2021-11-11'),(4,'Karen','Mack','kmack','supersecret4','2022-07-08'),(5,'Dianne','Klein','dklein','supersecret5','2021-09-22'),(6,'Dawn','Tillman','dtillman','supersecret6','2022-08-30');
-INSERT INTO events VALUES (1, 1 ,'2021-04-15','3000', 'Mexico'),(2, 2,'2022-05-08','2600','Madison'),(3, 3, '2021-11-11','4200','Florida'),(4, 4,'2022-07-08','6200','New York'),(5, 5,'2021-09-22','5000','Madison'),(6, 6,'2022-08-30','10000','San Francisco');
+INSERT INTO user VALUES (1,'Joe','Coyne','jcoyne','supersecret1'), (2,'Fred','Hensen','fhensen','supersecret2'),(3,'Barney','Curry','bcurry','supersecret3'),(4,'Karen','Mack','kmack','supersecret4'),(5,'Dianne','Klein','dklein','supersecret5'),(6,'Dawn','Tillman','dtillman','supersecret6');
+INSERT INTO events VALUES (1, 1 , 3000, 'Mexico'),(2, 2, 2600 ,'Madison'),(3, 3, 4200,'Florida'),(4, 4, 6200,'New York'),(5, 5, 5000,'Madison'),(6, 6, 10000,'San Francisco');

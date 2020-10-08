@@ -20,3 +20,10 @@
 [DEBUG] 2020-10-07 22:56:14.495 [main] UserDao - Searching for user with lastName = Curry
 [DEBUG] 2020-10-07 22:56:15.534 [main] UserDao - Searching for user with lastName = c
 [ERROR] 2020-10-07 22:57:07.687 [main] Database - com.mysql.cj.jdbc.exceptions.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2020-10-07 23:22:52.321 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2020-10-07 23:22:52.834 [main] UserDao - Searching for user with lastName = c
+[ERROR] 2020-10-07 23:23:44.445 [main] Database - com.mysql.cj.jdbc.exceptions.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2020-10-07 23:39:51.914 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2020-10-07 23:39:52.303 [main] UserDao - Searching for user with lastName = c
+[DEBUG] 2020-10-07 23:55:13.812 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2020-10-07 23:55:14.189 [main] UserDao - Searching for user with lastName = c
