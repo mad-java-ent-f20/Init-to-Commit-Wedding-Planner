@@ -8,6 +8,15 @@
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
 
+# log4j
+**/log4j2.properties
+
+# database
+**/database.properties
+
+#hibernate
+**/hibernate.cfg.xml
+
 # Sensitive or high-churn files:
 .idea/dataSources.ids
 .idea/dataSources.xml

@@ -63,24 +63,7 @@ public class Event {
         this.id = id;
     }
 
-    /**
-     * Gets wedding date.
-     *
-     * @return the wedding date
 
-    public int getWedding_date() {
-        return wedding_date;
-    }
-
-    /**
-     * Sets wedding date.
-     *
-     * @param wedding_date the wedding date
-
-    public void setWedding_date(int wedding_date) {
-        this.wedding_date = wedding_date;
-    }
-*/
     /**
      * Gets budget.
      *

@@ -27,3 +27,203 @@
 [DEBUG] 2020-10-07 23:39:52.303 [main] UserDao - Searching for user with lastName = c
 [DEBUG] 2020-10-07 23:55:13.812 [main] UserDao - Searching for user with lastName = Curry
 [DEBUG] 2020-10-07 23:55:14.189 [main] UserDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 16:59:20.962 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 17:03:51.295 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:02.479 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:02.999 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 18:17:03.006 [main] UserDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 18:17:03.343 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 18:17:03.345 [main] UserDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 18:17:03.425 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:03.466 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:03.507 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:03.630 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:17:03.764 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:20:53.188 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:24:04.008 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:33:15.015 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:36:19.581 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 18:37:20.454 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:08:48.897 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:26.410 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:31.474 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:31.909 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:32.048 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:09:32.057 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 19:09:32.148 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:09:32.150 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 19:09:32.226 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:32.273 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:09:32.320 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:20.721 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:24.244 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:24.675 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:24.793 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:10:24.801 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 19:10:24.907 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:10:24.908 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 19:10:24.982 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:25.050 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:10:25.108 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:19.981 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:23.200 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:23.595 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:23.727 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:13:23.731 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 19:13:23.816 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:13:23.817 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 19:13:23.893 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:23.954 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:13:24.011 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:07.197 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:30.745 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:33.926 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:34.379 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:34.485 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:15:34.488 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 19:15:34.600 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:15:34.600 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 19:15:34.669 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:34.735 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:15:34.802 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:31.833 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:35.633 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:36.022 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:36.107 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:44:36.111 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 19:44:36.233 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 19:44:36.234 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 19:44:36.306 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:36.362 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 19:44:36.428 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:09.985 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:15.496 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:15.967 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:16.059 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:30:16.065 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 20:30:16.187 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:30:16.189 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 20:30:16.275 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:16.331 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:30:16.392 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:37.953 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:43.184 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:43.589 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:43.683 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:31:43.687 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 20:31:43.798 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:31:43.799 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 20:31:43.866 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:43.919 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:31:43.996 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:04.052 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:09.486 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:10.211 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:10.310 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:32:10.317 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 20:32:10.425 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 20:32:10.426 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 20:32:10.491 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:10.545 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:32:10.609 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 20:33:12.516 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 20:33:23.173 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 20:33:23.987 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 20:33:24.221 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[DEBUG] 2020-10-14 20:33:24.239 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 20:33:24.545 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[DEBUG] 2020-10-14 20:33:24.548 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 20:33:24.726 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 20:33:24.866 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 20:33:24.993 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:36.124 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:42.701 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:43.400 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:43.523 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[DEBUG] 2020-10-14 21:06:43.528 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 21:06:43.645 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[DEBUG] 2020-10-14 21:06:43.647 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 21:06:43.715 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:43.843 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:06:43.928 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`wedding`.`events`, CONSTRAINT `events_user_id_fk` FOREIGN KEY (`event_id`) REFERENCES `user` (`id`))
+[ERROR] 2020-10-14 21:09:20.585 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:09:26.407 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:09:26.984 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:09:27.175 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:09:27.182 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 21:09:27.322 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:09:27.323 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 21:09:27.392 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:09:27.507 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:09:27.630 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:39.615 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:45.169 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:45.864 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:46.037 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:12:46.043 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 21:12:46.163 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:12:46.165 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 21:12:46.233 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:46.336 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:12:46.438 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:16.719 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:22.306 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:22.806 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:22.978 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:43:22.983 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 21:43:23.135 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[DEBUG] 2020-10-14 21:43:23.137 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 21:43:23.205 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:23.382 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:43:23.460 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`wedding`.`user`, CONSTRAINT `user_events_event_id_fk` FOREIGN KEY (`id`) REFERENCES `events` (`event_id`))
+[ERROR] 2020-10-14 21:46:14.196 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 21:46:19.151 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 21:46:19.756 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 21:46:19.858 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 21:46:19.866 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 21:46:19.958 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 21:46:19.958 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 21:46:20.011 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 21:46:20.063 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 21:46:20.143 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:23:53.566 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:23:59.341 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:24:00.932 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:24:01.961 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:24:02.066 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 22:24:02.511 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:24:02.516 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 22:24:02.718 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:24:02.894 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:24:03.564 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:05.322 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:26.845 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:32.696 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:33.871 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:34.051 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:25:34.057 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 22:25:34.304 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:25:34.305 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 22:25:34.505 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:34.600 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:25:34.850 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:15.679 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:22.137 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:23.629 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:24.396 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:30:24.585 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 22:30:25.666 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:30:25.723 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 22:30:26.492 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:26.930 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:30:27.667 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:29.577 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:35.448 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:38.031 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:38.743 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:37:38.773 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 22:37:39.558 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:37:39.565 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 22:37:39.826 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:39.938 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:37:40.018 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)

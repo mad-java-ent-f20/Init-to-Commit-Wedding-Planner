@@ -18,8 +18,9 @@ import java.util.Set;
  * @author amoua
  */
 @Entity(name = "User")
-@Table(name = "user")
+@Table(name = "user") // this is case sensitive
 public class User {
+
     @Column(name = "first_name")
     private String firstName;
 

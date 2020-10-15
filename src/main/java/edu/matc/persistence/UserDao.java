@@ -23,7 +23,7 @@ public class UserDao {
      *
      * @return the all users
      */
-    public List<User> getAllUsers() {
+    public List<User> getAll() {
 
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
