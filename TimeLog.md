@@ -12,4 +12,6 @@
 | 9.30.20| Continued working on indie project, start week 5 videos and excercise | 10  | |
 | 10.4.20| Continued working on indie project, start week 5 videos and excercise | 11  | |
 | 10.7.20| Continued working on indie project, finished week 5 exercise within project | 12  | |
+| 10.14.20| Continued working on indie project, finished week 6 exercise within project | 10  | |
+| 10.21.20| Continued working on indie project, finished week 7 exercise within project, start week 8 | 12  | |
 

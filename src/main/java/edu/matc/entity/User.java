@@ -41,6 +41,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Event> events = new HashSet<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Role> userRoles = new HashSet<>();
+
 
     /**
      * Instantiates a new User.
@@ -138,24 +141,7 @@ public class User {
         this.id = id;
     }
 
-    /**
-     * Sets wedding date.
-     *
-     * @param weddingDate the wedding date
 
-    public void setWeddingDate(LocalDate weddingDate) {
-        this.weddingDate = weddingDate;
-    }
-
-    /**
-     * Gets wedding date.
-     *
-     * @return the wedding date
-
-    public LocalDate getWeddingDate() {
-        return weddingDate;
-    }
-*/
     /**
      * Gets wed event.
      *
@@ -195,6 +181,46 @@ public class User {
         event.setUser(null);
     }
 
+    /**
+     * Gets user roles.
+     *
+     * @return the user roles
+     */
+    public Set<Role> getUserRoles() {
+        return userRoles;
+    }
+
+    /**
+     * Sets user roles.
+     *
+     * @param userRoles the user roles
+     */
+    public void setUserRoles(Set<Role> userRoles) {
+        this.userRoles = userRoles;
+    }
+
+
+    /**
+     * Add a UserRoles.
+     *
+     * @param userRole the UserRole to add
+     */
+    public void addUserRoles(Role userRole) {
+        userRoles.add( userRole );
+        userRole.setUser( this );
+    }
+
+
+    /**
+     * Remove user roles.
+     *
+     * @param userRole the user role
+     */
+    public void removeUserRoles(Role userRole) {
+        userRoles.remove( userRole );
+        userRole.setUser( null );
+    }
+
 
     @Override
     public String toString() {
@@ -202,6 +228,7 @@ public class User {
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
+                ", userRole='" + userRoles + '\'' +
                 ", id=" + id +
                 '}';
     }

@@ -8,8 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Search</title>
-    <a href="home.jsp">Click here to search for users (admin only)</a>
+    <title>In-it to Commit</title>
+    <p>Welcome</p>
 </head>
 <body>
 

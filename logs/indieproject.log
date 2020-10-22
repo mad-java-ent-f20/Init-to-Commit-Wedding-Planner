@@ -227,3 +227,222 @@
 [ERROR] 2020-10-14 22:37:39.826 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
 [ERROR] 2020-10-14 22:37:39.938 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
 [ERROR] 2020-10-14 22:37:40.018 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:25.457 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:32.917 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:37.387 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:38.718 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:44:39.083 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-14 22:44:42.979 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[DEBUG] 2020-10-14 22:44:43.301 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-14 22:44:46.869 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:48.292 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-14 22:44:49.285 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:10:42.727 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:12:39.450 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:13:14.283 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:13:45.614 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:14:16.490 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:14:47.587 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:15:18.644 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:15:49.668 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:16:20.629 [main] Database - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+[ERROR] 2020-10-15 20:42:42.596 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'funfund'
+[ERROR] 2020-10-15 20:42:42.701 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'funfund'
+[ERROR] 2020-10-15 20:43:17.512 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'funfund'
+[ERROR] 2020-10-15 20:43:17.552 [main] DatabaseUtility - java.sql.SQLSyntaxErrorException: Unknown database 'funfund'
+[ERROR] 2020-10-15 20:43:44.109 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:43:44.217 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:44:18.303 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:44:18.318 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:44:49.751 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:44:49.767 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 20:47:04.467 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:09.734 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:10.251 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:10.457 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 20:47:10.525 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 20:47:10.685 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 20:47:10.747 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 20:47:10.852 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:10.982 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:11.143 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:47:52.950 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:14.996 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:18.867 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:19.334 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:19.533 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 20:48:19.624 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 20:48:19.786 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 20:48:19.828 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 20:48:19.933 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:20.060 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 20:48:20.221 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:17:53.454 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:18:00.256 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:18:02.198 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:18:02.710 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:18:02.825 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 21:18:03.120 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:18:03.191 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 21:18:03.309 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:18:03.569 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:18:03.811 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:16.009 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:23.736 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:27.024 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:28.296 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:20:30.222 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 21:20:31.379 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:20:31.783 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 21:20:32.183 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:32.410 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:20:32.751 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:21:57.821 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:22:18.754 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:22:21.256 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:22:23.014 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:22:23.259 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 21:22:24.055 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:22:25.119 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 21:22:25.759 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:22:26.534 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:22:27.501 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:40:17.740 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:45:39.935 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:47:04.764 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:48:11.000 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:49:24.204 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 21:50:21.919 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 21:50:44.274 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 22:02:44.379 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:02:44.567 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:03:21.732 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:03:21.786 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:03:53.951 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:03:53.961 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-15 22:04:19.180 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:04:19.242 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 22:04:19.868 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:04:19.925 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 22:04:19.997 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:20.090 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:20.225 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:47.441 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:53.433 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:53.987 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:54.188 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:04:54.258 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 22:04:54.396 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:04:54.498 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 22:04:54.658 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:54.811 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:04:55.001 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:41.260 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:47.332 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:48.146 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:48.405 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:06:48.522 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-15 22:06:48.756 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-15 22:06:48.849 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-15 22:06:48.984 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:49.159 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-15 22:06:49.369 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:23.994 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:26.988 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:27.490 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:27.904 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:28.323 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:28.697 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-18 19:54:28.803 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:01.437 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:04.412 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:04.811 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:05.238 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:05.624 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:05.919 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:06.195 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:17:06.504 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:24.536 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:27.132 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:27.558 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:27.946 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:28.320 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:28.651 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:28.971 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:37:29.292 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:41.193 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:43.515 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:43.976 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:44.379 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:44.771 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:45.233 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:45.638 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:38:45.987 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:00.405 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:03.985 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:04.419 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:04.822 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:05.210 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:05.596 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:05.928 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:41:06.212 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:44:55.872 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:00.729 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:01.157 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:01.336 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 15:45:01.386 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-21 15:45:01.496 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 15:45:01.536 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-21 15:45:01.621 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:01.719 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:01.848 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:32.369 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:35.617 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:35.946 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:36.059 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 15:45:36.100 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-21 15:45:36.211 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 15:45:36.251 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-21 15:45:36.330 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:36.445 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 15:45:36.596 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:19:56.412 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:19:56.484 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:20:30.186 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:20:30.199 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:21:01.304 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:21:01.318 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:21:32.618 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:21:32.637 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:22:03.768 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:22:03.793 [main] DatabaseUtility - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2020-10-21 19:23:46.174 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:23:51.201 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:23:51.881 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:23:52.048 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 19:23:52.123 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-21 19:23:52.399 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 19:23:52.469 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-21 19:23:52.600 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:23:52.748 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:23:52.954 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:16.953 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:33.564 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:36.108 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:36.597 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 19:40:36.731 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-21 19:40:37.231 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 19:40:37.405 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-21 19:40:37.818 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:38.049 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 19:40:38.440 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:40.548 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:45.368 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:45.802 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:45.945 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 20:04:45.998 [main] GenericDao - Searching for user with lastName = Curry
+[ERROR] 2020-10-21 20:04:46.128 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2020-10-21 20:04:46.178 [main] GenericDao - Searching for user with lastName = c
+[ERROR] 2020-10-21 20:04:46.274 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:46.397 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2020-10-21 20:04:46.547 [main] DatabaseUtility - java.sql.SQLException: Can not issue empty query.
