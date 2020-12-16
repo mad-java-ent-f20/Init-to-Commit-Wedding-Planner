@@ -1,6 +1,5 @@
 package edu.matc.controller;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javax.mail.Session;
@@ -9,6 +8,9 @@ import javax.mail.PasswordAuthentication;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * Class that sends
+ */
 public class SendEmail {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
@@ -43,6 +45,7 @@ public class SendEmail {
         props.put("mail.smtp.auth", "true"); //Enabling SMTP Authentication
         props.put("mail.smtp.port", "465"); //SMTP Port
 
+        // creates a new session with authenticator
         Authenticator auth = new Authenticator() {
             //override the getPasswordAuthentication method
             protected PasswordAuthentication getPasswordAuthentication() {

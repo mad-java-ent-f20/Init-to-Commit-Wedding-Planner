@@ -2,17 +2,17 @@ package edu.matc.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.Date;
-
 import javax.mail.Message;
-
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
-
 import javax.mail.internet.MimeMessage;
 
+/**
+ * A utility class for sending e-mail messages
+ * ref source: https://www.codejava.net/java-ee/jsp/sending-e-mail-with-jsp-servlet-and-javamail
+ */
 
 public class EmailUtil {
     private final Logger logger = LogManager.getLogger(this.getClass());
