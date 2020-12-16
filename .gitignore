@@ -13,6 +13,7 @@
 
 # database
 **/database.properties
+**/email.properties
 
 #hibernate
 **/hibernate.cfg.xml

@@ -89,8 +89,9 @@ class UserDaoTest {
         User newUser = new User("Fred", "Flinstone", "fflinstone", "fredf@nomail.com");
         String location = "Madison";
         String budget = "3400";
-        String numOfGuests =
-        Event event = new Event(budget, location, numOfGuests, fflinstone);
+        String numOfGuests = "65";
+        String user_name = "fflinstone";
+        Event event = new Event(budget, location, numOfGuests, user_name);
 
         newUser.addEvent(event);
 
