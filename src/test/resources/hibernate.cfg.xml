@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd" >
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/wedding</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/weddingTest</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">student</property>
@@ -17,6 +17,8 @@
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.Event"/>
         <mapping class="edu.matc.entity.Role"/>
+        <mapping class="edu.matc.entity.Contact"/>
+        <mapping class="edu.matc.entity.Todo"/>
 
 
     </session-factory>

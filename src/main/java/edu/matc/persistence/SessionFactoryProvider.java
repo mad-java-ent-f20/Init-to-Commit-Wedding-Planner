@@ -6,6 +6,9 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
+import java.sql.Date;
+import java.time.LocalDate;
+
 
 /**
  * This file provides a SessionFactory for use with DAOs using Hibernate
@@ -47,5 +50,12 @@ public class SessionFactoryProvider {
         }
         return sessionFactory;
 
+    }
+    public static Date getSQLDate(LocalDate date) {
+        return java.sql.Date.valueOf(date);
+    }
+
+    public static LocalDate getUtilDate(Date sqlDate) {
+        return sqlDate.toLocalDate();
     }
 }

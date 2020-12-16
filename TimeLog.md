@@ -14,4 +14,7 @@
 | 10.7.20| Continued working on indie project, finished week 5 exercise within project | 12  | |
 | 10.14.20| Continued working on indie project, finished week 6 exercise within project | 10  | |
 | 10.21.20| Continued working on indie project, finished week 7 exercise within project, start week 8 | 12  | |
+| 10.23.20| Worked on putting together professional development presentation, try to fix vm space, week 7 and week 8 | 15  | |
+| 10.25.20| Catch up, team project, and indie project | 10 | |
+| 11.01.20| Continued working on indie project and team project | 12  | |
 

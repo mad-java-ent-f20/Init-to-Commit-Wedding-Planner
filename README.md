@@ -2,12 +2,16 @@
 # Init-to-Commit Wedding Planner Application
 
 
-This repository is for indie project.
+This repository is for java based indie project.
 
 ### Problem Statement
 
-This project is to a tool to assist users to plan a successful wedding within their set budget. It will keep all the
-details organized and allow the user to add, delete, and create according to their needs.
+Planning a wedding can be super stressful as there are so many details
+that are involved to produce a successful event.  It can get overwhelming when
+there are so many things to keep track of and keep it organized.
+
+This is a java-based web application that will assist users to plan a successful wedding. It will keep all their
+details organized according to their needs in one place.
 
 ### Project Technologies/Techniques 
 
@@ -18,25 +22,35 @@ details organized and allow the user to add, delete, and create according to the
 * Database
   * MySQL
   * Store users and roles
-  * Store all data for the wedding (ie: notes, photos, guest list)
+  * Store all data for the wedding 
+  
 * ORM Framework
   * Hibernate 5
+  
 * Dependency Management
   * Maven
+  
 * Web Services consumed using Java
-  * 
+  * JavaMail
+  
 * CSS 
   * Bootstrap or Materialize
+  
 * Data Validation
-  *
+  * Hibernate
+  
 * Logging
-  *  
+  *  Log4j2
+  
 * Hosting
-  * AWS
+  * AWS -- link: 
+  
 * Independent Research Topic/s
   * 
+  
 * Unit Testing
-  * 
+  * JUNIT
+  
 * IDE: IntelliJ IDEA
 
 

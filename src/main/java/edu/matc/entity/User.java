@@ -30,6 +30,12 @@ public class User {
     @Column(name = "user_name")
     private String userName;
 
+    @Column(name = "password")
+    private String password;
+
+    @Column(name = "email")
+    private String email;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -44,29 +50,15 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> userRoles = new HashSet<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    public Set<Contact> contacts = new HashSet<>();
+
 
     /**
      * Instantiates a new User.
      */
     public User() {
     }
-
-    /**
-     * Instantiates a new User.
-     *
-     * @param firstName   the first name
-     * @param lastName    the last name
-     * @param userName    the user name
-     */
-    public User(String firstName, String lastName, String userName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.userName = userName;
-        //this.id = id;
-        //this.weddingDate = weddingDate;
-    }
-
-
 
 
     /**
@@ -161,6 +153,42 @@ public class User {
     }
 
     /**
+     * Get password
+     *
+     * @return password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * Set password.
+     *
+     * @param password the password
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * Get the email.
+     *
+     * @return the email
+     */
+
+    public String getEmail() {
+        return email;
+    }
+    /**
+     * Set email
+     *
+     * @param email the password
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
      * Add event.
      *
      * @param event the event
@@ -201,7 +229,7 @@ public class User {
 
 
     /**
-     * Add a UserRoles.
+     * Add UserRoles.
      *
      * @param userRole the UserRole to add
      */
@@ -221,15 +249,71 @@ public class User {
         userRole.setUser( null );
     }
 
+    /**
+     * Add a contact
+     *
+     * @param contact the UserRole to add
+     */
+    public void addContact(Contact contact) {
+        contacts.add(contact);
+        contact.setUser(this);
+    }
+
+    /**
+     * Instantiates a new User with password
+     *
+     * @param firstName the first name
+     * @param lastName  the last name
+     * @param userName  the user name
+     * @param password  the password
+     * @param email     the email
+     */
+    public User(String firstName, String lastName, String userName, String password, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.password = password;
+        this.email = email;
+
+    }
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param userName the user name
+     * @param password the password
+     */
+    public User(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
+
+    /**
+     * Instantiates a new User with email
+     *
+     * @param firstName the first name
+     * @param lastName  the last name
+     * @param userName  the user name
+     * @param email     the email
+     */
+    public User(String firstName, String lastName, String userName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.email = email;
+
+    }
+
 
     @Override
     public String toString() {
         return "User{" +
-                "firstName='" + firstName + '\'' +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
-                ", userRole='" + userRoles + '\'' +
-                ", id=" + id +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
                 '}';
     }
 

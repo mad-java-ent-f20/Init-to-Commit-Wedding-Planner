@@ -1,86 +1,72 @@
 package edu.matc.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
-import java.util.Objects;
 
-@Entity(name = "Role")
-@Table(name = "role")
-public class Role {
+/**
+ * The type Order.
+ */
+@Entity(name = "Role")  // type from class name
+@Table(name = "role") // table name, case sensitive!
+
+@Getter
+@Setter
+//@ToString
+@NoArgsConstructor
+@Proxy(lazy=false)
+public class Role { // @OneToMany
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id",
-            foreignKey = @ForeignKey(name = "role_user_user_id_fk")
-    )
-    private User user;
-
-    @Column(name="user_name")
-    private String userName;
-
-
-    @Column(name="role_name")
+    @Column(name = "role_name")
     private String roleName;
 
-    public Role() {
-    }
+    @Column(name = "user_name")
+    private String userName;
 
-    public Role(User user, String roleName, String userName) {
-        this.user = user;
+    /**
+     * Bidirectional @OneToMany
+     The bidirectional @OneToMany association also requires a @ManyToOne association on the child side.
+     Although the Domain Model exposes two sides to navigate this association, behind the scenes,
+     the relational database has only one foreign key for this relationship.
+     Every bidirectional association must have one owning side only (the child side),
+     the other one being referred to as the inverse (or the mappedBy) side.
+     Foreign key is on the child table (Order in this example)
+     By default, the @ManyToOne association assumes that the parent-side entity identifier is to be used to join
+     with the client-side entity Foreign Key column.
+     However, when using a non-Primary Key association,
+     the column description and foreign key should be used to instruct Hibernate
+     which column should be used on the parent side to establish the many-to-one database relationship.
+     Source: http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#associations-one-to-many
+     */
+    @ManyToOne
+    //@JoinColumn(name="user_name", referencedColumnName = "user_name", nullable = false)    // referenceColumnName if not primary key
+    private User user;
+
+    /**
+     * Instantiates a new User role.
+     *
+     * @param roleName the rolename
+     * @param userName the role userName
+     * @param user     the user
+     */
+    public Role(String roleName, String userName, User user) {
         this.roleName = roleName;
         this.userName = userName;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
         this.user = user;
     }
 
-    public String getRoleName() {
-        return roleName;
-    }
 
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
-    }
-
-    @Override
-    public String toString() {
-        return "Role{" +
-                "id=" + id +
-                ", roleName='" + roleName + '\'' +
-                ", userName= '" + userName + '\'' +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Role role = (Role) o;
-        return id == role.id &&
-                Objects.equals(userName, role.userName) &&
-                Objects.equals(roleName, role.roleName);
-    }
-
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(id,  roleName, userName);
+    public Role(int id) {
+        this.id = id;
     }
 }

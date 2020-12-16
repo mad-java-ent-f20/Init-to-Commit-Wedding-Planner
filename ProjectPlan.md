@@ -64,7 +64,6 @@
 
 ### Week 9
 - [ ] Weekly journal entry
-- [ ] Integration with weather service and/or snow depth data
 - [ ] Review and incorporate feedback from Checkpoint 3.
 - [ ] Carefully review code for standards and best practices - use a code quality tool? 
 

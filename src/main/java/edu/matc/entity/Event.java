@@ -9,7 +9,7 @@ import javax.persistence.*;
  * @author amoua
  */
 @Entity(name = "Event")
-@Table(name = "events")
+@Table(name = "event")
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -19,14 +19,19 @@ public class Event {
     @ManyToOne
     private User user;
 
-   // @Column(name = "wedding_date")
-    //private int wedding_date;
+    @Column(name = "user_name")
+    private String user_name;
 
     @Column(name = "budget")
-    private int budget;
+    private String budget;
 
     @Column(name = "location")
     private String location;
+
+    @Column(name = "numOfGuests")
+    private String numOfGuests;
+
+
 
     /**
      * No arg constructor.
@@ -38,12 +43,32 @@ public class Event {
     /**
      * Instantiates a new Event.
      *
-     * @param user the user
+     * @param budget budget of wedding
+     * @param location location of wedding
      */
-    public Event(String location, User user) {
-        this.user = user;
+    public Event(String budget, String location, String numOfGuests, String user_name) {
+        this.budget = budget;
+        this.location = location;
+        this.numOfGuests = numOfGuests;
+        this.user_name = user_name;
     }
 
+
+    public String getUser_name() {
+        return user_name;
+    }
+
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
+    }
+
+    public String getNumOfGuests() {
+        return numOfGuests;
+    }
+
+    public void setNumOfGuests(String numOfGuests) {
+        this.numOfGuests = numOfGuests;
+    }
 
     /**
      * Gets id.
@@ -69,7 +94,7 @@ public class Event {
      *
      * @return the budget
      */
-    public int getBudget() {
+    public String getBudget() {
         return budget;
     }
 
@@ -78,7 +103,7 @@ public class Event {
      *
      * @param budget the budget
      */
-    public void setBudget(int budget) {
+    public void setBudget(String budget) {
         this.budget = budget;
     }
 
@@ -126,7 +151,8 @@ public class Event {
                 "id=" + id +
                 ", user=" + user +
                 ", budget=" + budget +
-                ", location='" + location + '\'' +
+                ", location='" + location +
+                ", numOfGuests='" + numOfGuests + '\'' +
                 '}';
     }
 

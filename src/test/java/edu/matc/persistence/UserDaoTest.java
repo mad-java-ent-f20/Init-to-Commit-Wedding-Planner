@@ -1,23 +1,33 @@
 package edu.matc.persistence;
 
+import com.mysql.cj.Session;
 import edu.matc.entity.Event;
+import edu.matc.entity.Role;
 import edu.matc.entity.User;
-import edu.matc.test.util.Database;
 import edu.matc.test.util.DatabaseUtility;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.transaction.Transaction;
+import javax.transaction.Transactional;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * The type User dao test.
- */
+import static org.junit.jupiter.api.Assertions.*;
+@Transactional
+
 class UserDaoTest {
+
+    private final Logger logger = LogManager.getLogger(this.getClass());
+    private Session session;
+    Transaction transaction = null;
+
+
     GenericDao genericDao;
+    GenericDao genericDaoEvent; //create
     DatabaseUtility databaseUtility;
-    //UserDao dao;
 
     /**
      * Run set up tasks before each tests
@@ -60,10 +70,10 @@ class UserDaoTest {
     @Test
     void insert() {
 
-        User newUser = new User("Fred", "Flintstone", "fflintstone");
+        User newUser = new User("Fred", "Flintstone", "fflintstone","fhensen@nomail.com");
+        @SuppressWarnings("unchecked") // Just for this one statement
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
-
         User insertedUser = (User)genericDao.getById(id);
         String expectedUser = "Fred";
         String actualUser = insertedUser.getFirstName();
@@ -76,12 +86,15 @@ class UserDaoTest {
     @Test
     void insertWithEventSuccess() {
 
-        User newUser = new User("Fred", "Flinstone", "fflinstone");
+        User newUser = new User("Fred", "Flinstone", "fflinstone", "fredf@nomail.com");
         String location = "Madison";
-        Event event = new Event(location, newUser);
+        String budget = "3400";
+        String numOfGuests =
+        Event event = new Event(budget, location, numOfGuests, fflinstone);
 
         newUser.addEvent(event);
 
+        @SuppressWarnings("unchecked") // Just for this one statement
         int id = genericDao.insert(newUser);
 
         assertNotEquals(0,id);
@@ -93,10 +106,28 @@ class UserDaoTest {
     }
 
     /**
+     * Verify successful insert of a user and an userRole
+     */
+    @Test
+    void insertWithRoleSuccess() {
+        String userRoleName = "user";
+        User newUser = new User("Fred", "Flintstone", "fflintstone", "fflinstone@nomail.com");
+        Role userRoles = new Role(userRoleName, "fflintstone", newUser);
+        newUser.addUserRoles(userRoles);
+        int id = genericDao.insert(newUser);
+        assertNotEquals(0, id);
+        User insertedUser = (User)genericDao.getById(id);
+        assertNotNull(insertedUser);
+        assertEquals("Fred", insertedUser.getFirstName());
+        assertEquals(1, insertedUser.getUserRoles().size());
+    }
+
+    /**
      * Verify successful delete of user
      */
     @Test
     void delete() {
+
         genericDao.delete(genericDao.getById(3));
         assertNull(genericDao.getById(3));
     }
@@ -106,13 +137,13 @@ class UserDaoTest {
      */
     @Test
     void saveOrUpdate() {
-        String updateNewUser = "Davis";
-        User userBeforeUpdate = (User)genericDao.getById(3);
+        String updateNewUser = "Fred";
+        User userBeforeUpdate = (User)genericDao.getById(2);
         userBeforeUpdate.setLastName(updateNewUser);
         genericDao.saveOrUpdate(userBeforeUpdate);
-        User userAfterUpdate = (User)genericDao.getById(3);
+        User userAfterUpdate = (User)genericDao.getById(2);
 
-        String expectedUser = "Davis";
+        String expectedUser = "Fred";
         String actualUser = userAfterUpdate.getLastName();
         assertTrue(expectedUser.equals(actualUser));
     }

@@ -8,12 +8,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 /**
  * Class to run sql statements as part of set up or tear down in the unit tests.
+ * @author paula -- taken from Fat Bike Trail Reports
  */
 public class DatabaseUtility {
     private final Logger logger = LogManager.getLogger(this.getClass());
     //TODO add hard-coded values to props file
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/wedding";
+    static final String DB_URL = "jdbc:mysql://localhost/weddingTest";
     static final String USER = "root";
     static final String PASS = "student";
     /**
